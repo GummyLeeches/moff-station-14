@@ -269,7 +269,7 @@
       - state: inflatable
 
 - type: entity
-  name: hatsune miku day bag
+  name: hatsune miku costume bag # Moff
   parent: ClothingBackpackDuffel
   id: BoxPerformer
   description: Happy Hatsune Miku Day!
@@ -280,13 +280,7 @@
         children:
         - id: ClothingShoesBootsPerformer
         - id: ClothingUniformJumpskirtPerformer
-        - id: ClothingHeadPerformerWig # Moff start - add new vocalsynth outfits to crates
-        - id: ClothingShoesBootsPerformerRed
-        - id: ClothingUniformJumpskirtPerformerRed
-        - id: ClothingHeadPerformerWigRed
-        - id: ClothingShoesBootsPerformerYellow
-        - id: ClothingUniformJumpskirtPerformerYellow
-        - id: ClothingHeadPerformerWigYellow # Moff end
+        - id: ClothingHeadPerformerWig
         - id: FoodMealMemoryleek
           amount: 2
 
