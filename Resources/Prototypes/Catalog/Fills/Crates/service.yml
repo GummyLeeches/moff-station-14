@@ -155,6 +155,18 @@
           - id: ClothingUniformJumpskirtPerformer
           - id: ClothingShoesBootsPerformer
           - id: ClothingHeadPerformerWig
+	# Moff start - add new vocalsynth outfits to crates (hopefully only temporary)
+	  - !type:AllSelector # red performer starter kit
+          children:
+          - id: ClothingUniformJumpskirtPerformerRed
+          - id: ClothingShoesBootsPerformerRed
+          - id: ClothingHeadPerformerWigRed
+        - !type:AllSelector # yellow performer starter kit
+          children:
+          - id: ClothingUniformJumpskirtPerformerYellow
+          - id: ClothingShoesBootsPerformerYellow
+          - id: ClothingHeadPerformerWigYellow
+	# Moff end
 
 - type: entity
   parent: CrateGenericSteel

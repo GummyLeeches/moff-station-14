@@ -281,6 +281,14 @@
         - id: ClothingShoesBootsPerformer
         - id: ClothingUniformJumpskirtPerformer
         - id: ClothingHeadPerformerWig
+	# Moff start - add new vocalsynth outfits to crates
+        - id: ClothingShoesBootsPerformerRed
+        - id: ClothingUniformJumpskirtPerformerRed
+        - id: ClothingHeadPerformerWigRed
+        - id: ClothingShoesBootsPerformerYellow
+        - id: ClothingUniformJumpskirtPerformerYellow
+        - id: ClothingHeadPerformerWigYellow
+	# Moff end
         - id: FoodMealMemoryleek
           amount: 2
 
